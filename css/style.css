@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	overflow: hidden;
+	background-color: #A94341;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+
+.logo img{
+	height: 30px;
+	padding: 20px 0px;
+}
+
+.menuber {
+	overflow: hidden;
+	width: 70%;
+	float: right;
+}
+
+.menuber ul{
+	float: right;
+}
+
+.menuber ul li{
+
+	list-style-type: none;
+	float: left;
+	padding: 20px 0px;
+	padding-left: 35px;
+	
+}
+
+.menuber ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	transition: 1s;
+}
+
+.menuber ul li a:hover{
+	color: #CA883E;
+}
+.menuber ul li a img {
+	height: 30px;
+	padding-right: 5px;
+}
+
+
+/*header end*/
+
+/*banner start*/
+.banner {
+	overflow: hidden;
+	background-color: #A3B7B5;
+}
+
+.banner .content {
+	text-align: center;
+	margin: 150px 0px;
+}
+.banner .content h1{
+	font-size: 95px;
+}
+
+.banner .content p{
+	font-size: 25px;
+}
+
+.text_color {
+	color: red;
+}
+/*banner end*/
+
+/*service start*/
+.service {
+	background-color: #58504E;
+	padding: 30px 0.5%;
+}
+
+.sevice_top {
+	overflow: hidden; 
+	width: 100%;
+}
+
+
+/*service top all element start*/
+
+.service_top1 {
+	background-color: #DFDED9;
+    width: 20.75%;
+    float: left;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 2.5% 1.5%;
+    margin-left: .9%;
+}
+.last{
+	margin-right: 0px;
+}
+.service_top1 .header{
+	overflow: hidden;
+
+}
+.service_top1 .header .icon{
+	width: 20%;
+	float: left;
+}
+
+.service_top1 .header .icon img{
+	width: 100%;
+	height: 50px;
+}
+
+.service_top1 .header .title{
+	width: 70%;
+	float: left;
+	font-size: 21px;
+	margin-left: 9px;
+    padding: 13px 0px;
+}
+.service_top1 .content{
+	margin: 0px;
+	padding: 25px 0px;
+}
+.btn {
+	text-align: center;
+}
+
+button{
+	border-radius: 15px;
+	padding: 10px 30px;
+	background-color: #D6883E; 
+	color: white;
+	font-size: 20px;
+	border: none;
+}
+
+/*service top all element end*/
+
+/*footer start*/
+
+.footer {
+	overflow: hidden;
+	background-color: #A8403D;
+	border: 3px solid #C0414A;
+	margin: 1.5% .6% 0% .6%;
+	border-radius: 5px;
+}
+
+.footer1 {
+	float: left;
+	width: 15%;
+	overflow: hidden;
+	padding: 2%;
+
+}
+
+.footer1 .icon{
+	width: 20%;
+	float: left;
+}
+.footer1 .icon img{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+.footer1 .footer_text{
+	width: 60%;
+	float: left;
+	margin-left: 10%;
+	padding: 5%;
+}
+.footer1 .footer_text .text{
+	color: white;
+	font-size: 20px;
+}
+.text {
+}
+/*footer end*/
+
+/*service end*/
